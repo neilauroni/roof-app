@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		384E367828DB9030000D74D7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384E367728DB9030000D74D7 /* HealthKit.framework */; };
+		384E367A28DB91A5000D74D7 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E367928DB91A5000D74D7 /* HealthKitManager.swift */; };
+		38D5618F28DA518700D95738 /* ActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5618E28DA518700D95738 /* ActiveView.swift */; };
+		38D5619728DA7F1A00D95738 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D5619628DA7F1A00D95738 /* HealthKit.framework */; };
+		38E5711D28B5B81400538943 /* roofieshitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5711C28B5B81400538943 /* roofieshitApp.swift */; };
+		38E5711F28B5B81400538943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5711E28B5B81400538943 /* ContentView.swift */; };
+		38E5712128B5B81500538943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E5712028B5B81500538943 /* Assets.xcassets */; };
+		38E5712428B5B81500538943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E5712328B5B81500538943 /* Preview Assets.xcassets */; };
+		38E5712E28B5B81500538943 /* roofieshitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5712D28B5B81500538943 /* roofieshitTests.swift */; };
+		38E5713828B5B81500538943 /* roofieshitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5713728B5B81500538943 /* roofieshitUITests.swift */; };
+		38E5713A28B5B81500538943 /* roofieshitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5713928B5B81500538943 /* roofieshitUITestsLaunchTests.swift */; };
+		38E5713E28B5B81500538943 /* roofieshit WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 38E5713D28B5B81500538943 /* roofieshit WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		38E5714328B5B81600538943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E5714228B5B81600538943 /* Assets.xcassets */; };
+		38E5714928B5B81600538943 /* roofieshit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 38E5714828B5B81600538943 /* roofieshit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		38E5714E28B5B81600538943 /* roofieshitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5714D28B5B81600538943 /* roofieshitApp.swift */; };
+		38E5715028B5B81600538943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5714F28B5B81600538943 /* ContentView.swift */; };
+		38E5715228B5B81600538943 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5715128B5B81600538943 /* NotificationController.swift */; };
+		38E5715428B5B81600538943 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5715328B5B81600538943 /* NotificationView.swift */; };
+		38E5715628B5B81600538943 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5715528B5B81600538943 /* ComplicationController.swift */; };
+		38E5715828B5B81700538943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E5715728B5B81700538943 /* Assets.xcassets */; };
+		38E5715B28B5B81700538943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E5715A28B5B81700538943 /* Preview Assets.xcassets */; };
+		38E5716728B5B81700538943 /* roofieshit_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5716628B5B81700538943 /* roofieshit_WatchKit_AppTests.swift */; };
+		38E5717128B5B81700538943 /* roofieshit_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5717028B5B81700538943 /* roofieshit_WatchKit_AppUITests.swift */; };
+		38E5717328B5B81700538943 /* roofieshit_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5717228B5B81700538943 /* roofieshit_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E5712A28B5B81500538943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E5711128B5B81400538943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5711828B5B81400538943;
+			remoteInfo = roofieshit;
+		};
+		38E5713428B5B81500538943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E5711128B5B81400538943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5711828B5B81400538943;
+			remoteInfo = roofieshit;
+		};
+		38E5713F28B5B81500538943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E5711128B5B81400538943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5713C28B5B81500538943;
+			remoteInfo = "roofieshit WatchKit App";
+		};
+		38E5714A28B5B81600538943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E5711128B5B81400538943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5714728B5B81600538943;
+			remoteInfo = "roofieshit WatchKit Extension";
+		};
+		38E5716328B5B81700538943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E5711128B5B81400538943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5714728B5B81600538943;
+			remoteInfo = "roofieshit WatchKit Extension";
+		};
+		38E5716D28B5B81700538943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E5711128B5B81400538943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E5713C28B5B81500538943;
+			remoteInfo = "roofieshit WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38E5717928B5B81700538943 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				38E5714928B5B81600538943 /* roofieshit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5717D28B5B81700538943 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				38E5713E28B5B81500538943 /* roofieshit WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		384E367628DB9030000D74D7 /* roofieshit WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "roofieshit WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		384E367728DB9030000D74D7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		384E367928DB91A5000D74D7 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		38D5618E28DA518700D95738 /* ActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveView.swift; sourceTree = "<group>"; };
+		38D5619428DA7F1A00D95738 /* roofieshit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = roofieshit.entitlements; sourceTree = "<group>"; };
+		38D5619628DA7F1A00D95738 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		38E5711928B5B81400538943 /* roofieshit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roofieshit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5711C28B5B81400538943 /* roofieshitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshitApp.swift; sourceTree = "<group>"; };
+		38E5711E28B5B81400538943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38E5712028B5B81500538943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E5712328B5B81500538943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38E5712928B5B81500538943 /* roofieshitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roofieshitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5712D28B5B81500538943 /* roofieshitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshitTests.swift; sourceTree = "<group>"; };
+		38E5713328B5B81500538943 /* roofieshitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roofieshitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5713728B5B81500538943 /* roofieshitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshitUITests.swift; sourceTree = "<group>"; };
+		38E5713928B5B81500538943 /* roofieshitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38E5713D28B5B81500538943 /* roofieshit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "roofieshit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5714228B5B81600538943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E5714828B5B81600538943 /* roofieshit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "roofieshit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5714D28B5B81600538943 /* roofieshitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshitApp.swift; sourceTree = "<group>"; };
+		38E5714F28B5B81600538943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38E5715128B5B81600538943 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		38E5715328B5B81600538943 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		38E5715528B5B81600538943 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		38E5715728B5B81700538943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E5715A28B5B81700538943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38E5715C28B5B81700538943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E5715D28B5B81700538943 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		38E5716228B5B81700538943 /* roofieshit WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "roofieshit WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5716628B5B81700538943 /* roofieshit_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshit_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		38E5716C28B5B81700538943 /* roofieshit WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "roofieshit WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E5717028B5B81700538943 /* roofieshit_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshit_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		38E5717228B5B81700538943 /* roofieshit_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roofieshit_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E5711628B5B81400538943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D5619728DA7F1A00D95738 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5712628B5B81500538943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5713028B5B81500538943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5714528B5B81600538943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384E367828DB9030000D74D7 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5715F28B5B81700538943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5716928B5B81700538943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384E367B28DB9626000D74D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38E5715328B5B81600538943 /* NotificationView.swift */,
+				38D5618E28DA518700D95738 /* ActiveView.swift */,
+				38E5714F28B5B81600538943 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		384E367C28DB963B000D74D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				384E367928DB91A5000D74D7 /* HealthKitManager.swift */,
+				38E5715528B5B81600538943 /* ComplicationController.swift */,
+				38E5715128B5B81600538943 /* NotificationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38D5619528DA7F1A00D95738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				384E367728DB9030000D74D7 /* HealthKit.framework */,
+				38D5619628DA7F1A00D95738 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38E5711028B5B81400538943 = {
+			isa = PBXGroup;
+			children = (
+				38E5711B28B5B81400538943 /* roofieshit */,
+				38E5712C28B5B81500538943 /* roofieshitTests */,
+				38E5713628B5B81500538943 /* roofieshitUITests */,
+				38E5714128B5B81500538943 /* roofieshit WatchKit App */,
+				38E5714C28B5B81600538943 /* roofieshit WatchKit Extension */,
+				38E5716528B5B81700538943 /* roofieshit WatchKit AppTests */,
+				38E5716F28B5B81700538943 /* roofieshit WatchKit AppUITests */,
+				38E5711A28B5B81400538943 /* Products */,
+				38D5619528DA7F1A00D95738 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38E5711A28B5B81400538943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E5711928B5B81400538943 /* roofieshit.app */,
+				38E5712928B5B81500538943 /* roofieshitTests.xctest */,
+				38E5713328B5B81500538943 /* roofieshitUITests.xctest */,
+				38E5713D28B5B81500538943 /* roofieshit WatchKit App.app */,
+				38E5714828B5B81600538943 /* roofieshit WatchKit Extension.appex */,
+				38E5716228B5B81700538943 /* roofieshit WatchKit AppTests.xctest */,
+				38E5716C28B5B81700538943 /* roofieshit WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E5711B28B5B81400538943 /* roofieshit */ = {
+			isa = PBXGroup;
+			children = (
+				38D5619428DA7F1A00D95738 /* roofieshit.entitlements */,
+				38E5711C28B5B81400538943 /* roofieshitApp.swift */,
+				38E5711E28B5B81400538943 /* ContentView.swift */,
+				38E5712028B5B81500538943 /* Assets.xcassets */,
+				38E5712228B5B81500538943 /* Preview Content */,
+			);
+			path = roofieshit;
+			sourceTree = "<group>";
+		};
+		38E5712228B5B81500538943 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38E5712328B5B81500538943 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38E5712C28B5B81500538943 /* roofieshitTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E5712D28B5B81500538943 /* roofieshitTests.swift */,
+			);
+			path = roofieshitTests;
+			sourceTree = "<group>";
+		};
+		38E5713628B5B81500538943 /* roofieshitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38E5713728B5B81500538943 /* roofieshitUITests.swift */,
+				38E5713928B5B81500538943 /* roofieshitUITestsLaunchTests.swift */,
+			);
+			path = roofieshitUITests;
+			sourceTree = "<group>";
+		};
+		38E5714128B5B81500538943 /* roofieshit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				38E5714228B5B81600538943 /* Assets.xcassets */,
+			);
+			path = "roofieshit WatchKit App";
+			sourceTree = "<group>";
+		};
+		38E5714C28B5B81600538943 /* roofieshit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				384E367C28DB963B000D74D7 /* Controller */,
+				384E367B28DB9626000D74D7 /* Views */,
+				384E367628DB9030000D74D7 /* roofieshit WatchKit Extension.entitlements */,
+				38E5714D28B5B81600538943 /* roofieshitApp.swift */,
+				38E5715728B5B81700538943 /* Assets.xcassets */,
+				38E5715C28B5B81700538943 /* Info.plist */,
+				38E5715D28B5B81700538943 /* PushNotificationPayload.apns */,
+				38E5715928B5B81700538943 /* Preview Content */,
+			);
+			path = "roofieshit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		38E5715928B5B81700538943 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38E5715A28B5B81700538943 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38E5716528B5B81700538943 /* roofieshit WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E5716628B5B81700538943 /* roofieshit_WatchKit_AppTests.swift */,
+			);
+			path = "roofieshit WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		38E5716F28B5B81700538943 /* roofieshit WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38E5717028B5B81700538943 /* roofieshit_WatchKit_AppUITests.swift */,
+				38E5717228B5B81700538943 /* roofieshit_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "roofieshit WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E5711828B5B81400538943 /* roofieshit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5717E28B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit" */;
+			buildPhases = (
+				38E5711528B5B81400538943 /* Sources */,
+				38E5711628B5B81400538943 /* Frameworks */,
+				38E5711728B5B81400538943 /* Resources */,
+				38E5717D28B5B81700538943 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E5714028B5B81500538943 /* PBXTargetDependency */,
+			);
+			name = roofieshit;
+			productName = roofieshit;
+			productReference = 38E5711928B5B81400538943 /* roofieshit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E5712828B5B81500538943 /* roofieshitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5718128B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshitTests" */;
+			buildPhases = (
+				38E5712528B5B81500538943 /* Sources */,
+				38E5712628B5B81500538943 /* Frameworks */,
+				38E5712728B5B81500538943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E5712B28B5B81500538943 /* PBXTargetDependency */,
+			);
+			name = roofieshitTests;
+			productName = roofieshitTests;
+			productReference = 38E5712928B5B81500538943 /* roofieshitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E5713228B5B81500538943 /* roofieshitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5718428B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshitUITests" */;
+			buildPhases = (
+				38E5712F28B5B81500538943 /* Sources */,
+				38E5713028B5B81500538943 /* Frameworks */,
+				38E5713128B5B81500538943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E5713528B5B81500538943 /* PBXTargetDependency */,
+			);
+			name = roofieshitUITests;
+			productName = roofieshitUITests;
+			productReference = 38E5713328B5B81500538943 /* roofieshitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		38E5713C28B5B81500538943 /* roofieshit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5717A28B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit App" */;
+			buildPhases = (
+				38E5713B28B5B81500538943 /* Resources */,
+				38E5717928B5B81700538943 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E5714B28B5B81600538943 /* PBXTargetDependency */,
+			);
+			name = "roofieshit WatchKit App";
+			productName = "roofieshit WatchKit App";
+			productReference = 38E5713D28B5B81500538943 /* roofieshit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		38E5714728B5B81600538943 /* roofieshit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5717628B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit Extension" */;
+			buildPhases = (
+				38E5714428B5B81600538943 /* Sources */,
+				38E5714528B5B81600538943 /* Frameworks */,
+				38E5714628B5B81600538943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "roofieshit WatchKit Extension";
+			productName = "roofieshit WatchKit Extension";
+			productReference = 38E5714828B5B81600538943 /* roofieshit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		38E5716128B5B81700538943 /* roofieshit WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5718728B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit AppTests" */;
+			buildPhases = (
+				38E5715E28B5B81700538943 /* Sources */,
+				38E5715F28B5B81700538943 /* Frameworks */,
+				38E5716028B5B81700538943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E5716428B5B81700538943 /* PBXTargetDependency */,
+			);
+			name = "roofieshit WatchKit AppTests";
+			productName = "roofieshit WatchKit AppTests";
+			productReference = 38E5716228B5B81700538943 /* roofieshit WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E5716B28B5B81700538943 /* roofieshit WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E5718A28B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit AppUITests" */;
+			buildPhases = (
+				38E5716828B5B81700538943 /* Sources */,
+				38E5716928B5B81700538943 /* Frameworks */,
+				38E5716A28B5B81700538943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E5716E28B5B81700538943 /* PBXTargetDependency */,
+			);
+			name = "roofieshit WatchKit AppUITests";
+			productName = "roofieshit WatchKit AppUITests";
+			productReference = 38E5716C28B5B81700538943 /* roofieshit WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E5711128B5B81400538943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					38E5711828B5B81400538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					38E5712828B5B81500538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 38E5711828B5B81400538943;
+					};
+					38E5713228B5B81500538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 38E5711828B5B81400538943;
+					};
+					38E5713C28B5B81500538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					38E5714728B5B81600538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					38E5716128B5B81700538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 38E5714728B5B81600538943;
+					};
+					38E5716B28B5B81700538943 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 38E5713C28B5B81500538943;
+					};
+				};
+			};
+			buildConfigurationList = 38E5711428B5B81400538943 /* Build configuration list for PBXProject "roofieshit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E5711028B5B81400538943;
+			productRefGroup = 38E5711A28B5B81400538943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E5711828B5B81400538943 /* roofieshit */,
+				38E5712828B5B81500538943 /* roofieshitTests */,
+				38E5713228B5B81500538943 /* roofieshitUITests */,
+				38E5713C28B5B81500538943 /* roofieshit WatchKit App */,
+				38E5714728B5B81600538943 /* roofieshit WatchKit Extension */,
+				38E5716128B5B81700538943 /* roofieshit WatchKit AppTests */,
+				38E5716B28B5B81700538943 /* roofieshit WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E5711728B5B81400538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5712428B5B81500538943 /* Preview Assets.xcassets in Resources */,
+				38E5712128B5B81500538943 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5712728B5B81500538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5713128B5B81500538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5713B28B5B81500538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5714328B5B81600538943 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5714628B5B81600538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5715B28B5B81700538943 /* Preview Assets.xcassets in Resources */,
+				38E5715828B5B81700538943 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5716028B5B81700538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5716A28B5B81700538943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E5711528B5B81400538943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5711F28B5B81400538943 /* ContentView.swift in Sources */,
+				38E5711D28B5B81400538943 /* roofieshitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5712528B5B81500538943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5712E28B5B81500538943 /* roofieshitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5712F28B5B81500538943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5713A28B5B81500538943 /* roofieshitUITestsLaunchTests.swift in Sources */,
+				38E5713828B5B81500538943 /* roofieshitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5714428B5B81600538943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5715228B5B81600538943 /* NotificationController.swift in Sources */,
+				38D5618F28DA518700D95738 /* ActiveView.swift in Sources */,
+				38E5715028B5B81600538943 /* ContentView.swift in Sources */,
+				38E5715628B5B81600538943 /* ComplicationController.swift in Sources */,
+				38E5714E28B5B81600538943 /* roofieshitApp.swift in Sources */,
+				384E367A28DB91A5000D74D7 /* HealthKitManager.swift in Sources */,
+				38E5715428B5B81600538943 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5715E28B5B81700538943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5716728B5B81700538943 /* roofieshit_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E5716828B5B81700538943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E5717128B5B81700538943 /* roofieshit_WatchKit_AppUITests.swift in Sources */,
+				38E5717328B5B81700538943 /* roofieshit_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E5712B28B5B81500538943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E5711828B5B81400538943 /* roofieshit */;
+			targetProxy = 38E5712A28B5B81500538943 /* PBXContainerItemProxy */;
+		};
+		38E5713528B5B81500538943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E5711828B5B81400538943 /* roofieshit */;
+			targetProxy = 38E5713428B5B81500538943 /* PBXContainerItemProxy */;
+		};
+		38E5714028B5B81500538943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E5713C28B5B81500538943 /* roofieshit WatchKit App */;
+			targetProxy = 38E5713F28B5B81500538943 /* PBXContainerItemProxy */;
+		};
+		38E5714B28B5B81600538943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E5714728B5B81600538943 /* roofieshit WatchKit Extension */;
+			targetProxy = 38E5714A28B5B81600538943 /* PBXContainerItemProxy */;
+		};
+		38E5716428B5B81700538943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E5714728B5B81600538943 /* roofieshit WatchKit Extension */;
+			targetProxy = 38E5716328B5B81700538943 /* PBXContainerItemProxy */;
+		};
+		38E5716E28B5B81700538943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E5713C28B5B81500538943 /* roofieshit WatchKit App */;
+			targetProxy = 38E5716D28B5B81700538943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38E5717428B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38E5717528B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		38E5717728B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "roofieshit WatchKit Extension/roofieshit WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"roofieshit WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "roofieshit WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "roofieshit WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = roofieshit_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		38E5717828B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "roofieshit WatchKit Extension/roofieshit WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"roofieshit WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "roofieshit WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "roofieshit WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = roofieshit_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		38E5717B28B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = roofieshit_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "roofieshit WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = neilauroni.roofieshit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		38E5717C28B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = roofieshit_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "roofieshit WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = neilauroni.roofieshit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		38E5717F28B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = roofieshit/roofieshit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"roofieshit/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E5718028B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = roofieshit/roofieshit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"roofieshit/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E5718228B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roofieshit.app/roofieshit";
+			};
+			name = Debug;
+		};
+		38E5718328B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roofieshit.app/roofieshit";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E5718528B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = roofieshit;
+			};
+			name = Debug;
+		};
+		38E5718628B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neilauroni.roofieshitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = roofieshit;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E5718828B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.roofieshit-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roofieshit WatchKit Extension.appex/roofieshit WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		38E5718928B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.roofieshit-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roofieshit WatchKit Extension.appex/roofieshit WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		38E5718B28B5B81700538943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.roofieshit-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "roofieshit WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		38E5718C28B5B81700538943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neilauroni.roofieshit-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "roofieshit WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E5711428B5B81400538943 /* Build configuration list for PBXProject "roofieshit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5717428B5B81700538943 /* Debug */,
+				38E5717528B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5717628B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5717728B5B81700538943 /* Debug */,
+				38E5717828B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5717A28B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5717B28B5B81700538943 /* Debug */,
+				38E5717C28B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5717E28B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5717F28B5B81700538943 /* Debug */,
+				38E5718028B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5718128B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5718228B5B81700538943 /* Debug */,
+				38E5718328B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5718428B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5718528B5B81700538943 /* Debug */,
+				38E5718628B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5718728B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5718828B5B81700538943 /* Debug */,
+				38E5718928B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E5718A28B5B81700538943 /* Build configuration list for PBXNativeTarget "roofieshit WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E5718B28B5B81700538943 /* Debug */,
+				38E5718C28B5B81700538943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E5711128B5B81400538943 /* Project object */;
+}
